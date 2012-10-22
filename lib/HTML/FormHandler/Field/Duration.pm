@@ -15,10 +15,10 @@ Subfield names:
 
 For example:
 
-   has 'duration' => ( type => 'Duration' );
-   has 'duration.hours' => ( type => 'Int', range_start => 0,
+   has_field 'duration' => ( type => 'Duration' );
+   has_field 'duration.hours' => ( type => 'Integer', range_start => 0,
         range_end => 23 );
-   has 'duration.minutes' => ( type => 'Int', range_start => 0,
+   has_field 'duration.minutes' => ( type => 'Integer', range_start => 0,
         range_end => 59 );
 
 Customize error message 'duration_invalid' (default 'Invalid value for [_1]: [_2]')
