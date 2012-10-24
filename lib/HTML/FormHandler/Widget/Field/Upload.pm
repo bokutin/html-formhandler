@@ -1,5 +1,5 @@
 package HTML::FormHandler::Widget::Field::Upload;
-# ABSTRACT: update field rendering widget
+# ABSTRACT: upload field rendering widget
 use Moose::Role;
 use HTML::FormHandler::Render::Util ('process_attrs');
 
